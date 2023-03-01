@@ -1,6 +1,6 @@
 # XML Organizer
 
-This script organizes XML files from NF-e (Brazilian Electronic Invoice) based on their payment type. The XML files are moved to different directories according to the payment type: "pago-dinheiro/" for cash payments and "pago-cartao/" for card payments.
+This script organizes XML files from NF-e (Brazilian Electronic Invoice) based on their payment type. The XML files are moved to different directories according to the payment type: `\example\folder\money` for cash payments and `\example\folder\outher` for card payments.
 
 ## Implementation
 
@@ -10,7 +10,7 @@ The script is implemented in Python and uses the following libraries:
 - `os` for directory listing
 - `xml.etree.ElementTree` for parsing the XML files
 
-The script works by reading each XML file in the specified directory, parsing it to obtain the payment type, and moving it to the appropriate directory. The directory paths can be configured by changing the `DIRETORIO` and `DESTINO` constants in the script.
+The script works by reading each XML file in the specified directory, parsing it to obtain the payment type, and moving it to the appropriate directory. The directory paths can be configured by changing the `DIRECTORY` and `DESTINATION` constants in the script.
 
 ## Setup
 
